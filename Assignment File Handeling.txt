@@ -1,0 +1,10 @@
+1. a menu will be displayed 
+ 1. add 
+ 2. view 
+
+if 1 choosed then program shoud as two things 
+  a. acc title (string)
+  b. ac number (number)
+
+hint : two files will be creaetd as acc_titles.txt, acc_num.txt
+
