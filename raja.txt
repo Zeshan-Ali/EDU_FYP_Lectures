@@ -1,0 +1,5 @@
+The initial balance is:340000
+The amount after credit is:6000
+Balance after credit: 346000
+Debited: 7800
+Balance after debit: 338200
