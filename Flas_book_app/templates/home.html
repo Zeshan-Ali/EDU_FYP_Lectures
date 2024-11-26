@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<body>
+    <form method="POST" action="/">
+        title <input type="text" name="title">
+        <input type="submit" value="Add">
+    </form>
+    <h1>Books in data base</h1>
+    {% for book in books %}
+     <p>{{ book.title }}</p>
+     <form method="POST" action="./update">
+        <input type="hidden" value="{{book.title}}" name="oldtitle">
+        <input type="text" value="{{book.title}}" name="newtitle">
+        <input type="submit" value="Update">
+      </form>
+    {% endfor %}
+
+</body>
+</html>
